@@ -1,0 +1,15 @@
+{
+    "init_params": {
+        "useAPI": 0,
+        "delimiters": [
+            "-",
+            "/",
+            "~"
+        ],
+        "displayed_tags_num": 10
+    },
+    "API_regulator": {
+        "month": 10,
+        "API_usage_count": 0
+    }
+}
