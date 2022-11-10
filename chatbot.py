@@ -1,7 +1,6 @@
 from flask import Flask, request
 import os
 import core.Regulator
-import json
 
 app = Flask(__name__)
 
@@ -14,7 +13,6 @@ def index():
 def respond():
     # Retrieve the query from the url parameter /getqry/?query=
     query = request.args.get("query", None)
-
     # # For debugging
     # print(f"Received: {query}")
 
