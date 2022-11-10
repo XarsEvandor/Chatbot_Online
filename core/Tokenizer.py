@@ -1,8 +1,5 @@
 class Tokenizer:
-    import nltk
     from nltk.corpus import stopwords
-    nltk.data.append('./nltk_data/')
-    
     stopwords = stopwords.words('english')
 
     def __init__(self, query: str, delimiters: list):

@@ -1,6 +1,5 @@
 import nltk
 from nltk.stem import PorterStemmer
-nltk.data.append('./nltk_data/')
 
 class Lemmatizer:
     def __init__(self, tokens: list):
